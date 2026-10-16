@@ -32,6 +32,7 @@ bucket_name = "inkstone-files"
 
 [[kv_namespaces]]
 binding = "OAUTH_KV"
+id = "01d3cd4fc6fe46d69e6b993a62fa1e2a"
 
 [[durable_objects.bindings]]
 name = "SYNC_HUB"
@@ -57,6 +58,7 @@ crons = ["0 * * * *", "15,45 * * * *"]
 
 [vars]
 APP_NAME = "Inkstone"
+PUBLIC_URL = "https://note.yuexiacheng.cn"
 
 [observability]
 enabled = true
